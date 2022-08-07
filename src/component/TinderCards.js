@@ -4,7 +4,7 @@ import './TinderCard.css'
 function TinderCards() {
     // hooks are functions that can be used in react components.
     // they are similar to start and props, but they are not
-    const [cars, setCars]=React.useState([
+    const [cars]=React.useState([
         {
             name:'Tesla',
             url:'https://media.wired.com/photos/5dd828ba9ac14a0008116983/4:3/w_1920,h_1440,c_limit/Transpo_TeslaStoryOne_Cybertruck-5.jpg'
